@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../qml/MainWindow.qml</file>
+        <file>../qml/CustomCalendar.qml</file>
+        <file>../qml/Notes.qml</file>
+        <file>../qml/Metrics.qml</file>
+        <file>../qml/Chart.qml</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>../images/add.png</file>
+        <file>../images/arrow-right.png</file>
+        <file>../images/arrow-left.png</file>
+        <file>../images/delete.png</file>
+        <file>../images/notes.png</file>
+        <file>../images/metrics.png</file>
+        <file>../images/calendar.png</file>
+    </qresource>
+</RCC>
