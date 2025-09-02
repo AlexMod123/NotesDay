@@ -30,7 +30,6 @@ public:
     Q_INVOKABLE void updateMetric(int row, int score);
     Q_INVOKABLE void deleteMetric(int row);
     Q_INVOKABLE QAbstractTableModel* metricsModel() { return m_metricsModel; }
-    // Q_INVOKABLE QAbstractListModel* metricsModel() { return m_metricsModel; }
     Q_INVOKABLE QString getMetricTypeName(int typeId) const;
 signals:
     void currentDateChanged();

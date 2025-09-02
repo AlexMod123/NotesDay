@@ -28,9 +28,9 @@ add_executable(Daily main.cpp
         src/metricTypesModel.cpp
         src/metricTypesModel.h)
 target_link_libraries(Daily
-        Qt::Core
-        Qt::Gui
-        Qt::Quick
+        Qt6::Core
+        Qt6::Gui
+        Qt6::Quick
         Qt6::QuickControls2
         Qt6::Charts
         Qt6::Graphs
